@@ -17,6 +17,5 @@ namespace QueryStringExample
 
             return "?" + string.Join("&", segments);
         }
-
     }
 }
