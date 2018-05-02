@@ -22,7 +22,7 @@ namespace QueryStringExample
             nvc.Add("parameter4", "測試");
 
             // ***【補充】***
-            // 要在網頁上接受QueryString方法
+            // 要在網頁上接收QueryString方法
             // NameValueCollection nvc = Request.QueryString;
 
             // 【Demo1】網址 + QueryString參數
