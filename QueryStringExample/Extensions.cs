@@ -10,8 +10,7 @@ namespace QueryStringExample
         {
             var segments = from key in nvc.AllKeys
                            from value in nvc.GetValues(key)
-                           select 
-                           $"{WebUtility.UrlEncode(key)}={WebUtility.UrlEncode(value)}";
+                           select $"{WebUtility.UrlEncode(key)}={WebUtility.UrlEncode(value)}";
 
             return $"?{string.Join("&", segments)}";
         }
